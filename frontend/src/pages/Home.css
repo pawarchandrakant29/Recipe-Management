@@ -1,0 +1,103 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef6e4; /* Soft background */
+    width: 100%;
+  }
+  
+  /* Home Section Styling */
+  .home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .home-left {
+    max-width: 50%;
+  }
+  
+  .main-heading {
+    font-size: 3rem;
+    color: #ff7e5f;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .sub-heading {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  .primary-btn {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .primary-btn:hover {
+    background: linear-gradient(90deg, #feb47b, #ff7e5f);
+  }
+  
+  .home-right {
+    max-width: 45%;
+    text-align: center;
+  }
+  
+  .hero-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Wave Background */
+  .wave-bg {
+    margin-top: -5rem;
+  }
+  
+  .wave-bg svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Recipe Section */
+  .recipe-section {
+    /* padding: 4rem 2rem; */
+    text-align: center;
+    width: 100% !important;
+  }
+  
+  .section-heading {
+    font-size: 2rem;
+    color: #ff7e5f;
+    margin-bottom: 1rem;
+  }
+  
+  .section-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  

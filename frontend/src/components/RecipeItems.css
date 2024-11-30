@@ -1,0 +1,126 @@
+/* Main container for the Recipe Items page */
+.recipe-items-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Search section styles */
+  .search-container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .section-heading {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .section-subheading {
+    color: #666;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .food-search-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .food-search-input:focus {
+    border-color: #ff6f61;
+  }
+  
+  /* Recipe Cards Section */
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .recipe-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .recipe-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .recipe-timer {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .recipe-fav-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .recipe-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-icon, .delete-icon {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .edit-icon:hover {
+    color: #007bff;
+  }
+  
+  .delete-icon:hover {
+    color: #e53946;
+  }
+  
+  /* No results message */
+  .no-results-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #999;
+  }
+  .recipe-timer{
+    color: rgb(70, 167, 5);
+  }
+  

@@ -1,0 +1,125 @@
+/* General Container */
+.recipe-details-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Section */
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 20px;
+}
+
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.user-email {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Recipe Title and Cuisine */
+.recipe-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.recipe-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.recipe-cuisine {
+    font-size: 18px;
+    font-weight: 500;
+    color: #888;
+    margin-top: 10px;
+}
+
+/* Recipe Image */
+.recipe-image-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.recipe-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Recipe Ingredients and Instructions */
+.recipe-details {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.ingredients-section,
+.instructions-section {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.ingredients-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ingredient-item {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.ingredient-index {
+    font-weight: 600;
+    color: #333;
+}
+
+.instructions-text {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .recipe-title {
+        font-size: 28px;
+    }
+
+    .recipe-cuisine {
+        font-size: 16px;
+    }
+
+    .recipe-img {
+        max-height: 400px;
+    }
+}
